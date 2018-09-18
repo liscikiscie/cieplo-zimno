@@ -1,6 +1,5 @@
 <template>
     <div class="announcements">
-        <p>announcements</p>
     </div>
 </template>
 

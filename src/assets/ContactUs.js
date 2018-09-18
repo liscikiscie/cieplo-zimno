@@ -1,4 +1,4 @@
-const contacts = [
+const contactUs = [
     {
         companyName: "Wydawnictwo Magnus",
         series: "Seria Ciepło / Zimno",
@@ -7,4 +7,4 @@ const contacts = [
     }
 ];
 
-export default contacts;
+export default contactUs;
