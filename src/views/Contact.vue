@@ -15,7 +15,6 @@
     import ContactUs from '../componets/ContactUs.vue'
     import ContactUsInfo from '../assets/ContactUs';
 
-
     let Contact = {
         name: 'Contact',
         components: {
