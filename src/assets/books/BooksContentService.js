@@ -1,11 +1,12 @@
-import SilverStag from './covers/silver_stag_okladka.jpg'
-import MistrzowskieRozmowy from './covers/MAGNUS_WYWIADY_OKLADKA_231X161_014.jpg'
-import Apokryf from './covers/apokryf.jpg'
-import DrogaWNieznane from './covers/drogaWNieznane.jpg'
-import FutbolowaRewolucja from './covers/futbolowa-rewolucja.jpg'
-import GoingToTheMatch from './covers/gttm.jpg'
-import Pressing from './covers/pressing.jpg'
-import KobietyIFullboll from './covers/kobietyFutboll.jpg'
+import SilverStag from './covers/silver_stag_okladka.jpg';
+import MistrzowskieRozmowy from './covers/MAGNUS_WYWIADY_OKLADKA_231X161_014.jpg';
+import Apokryf from './covers/apokryf.jpg';
+import DrogaWNieznane from './covers/drogaWNieznane.jpg';
+import FutbolowaRewolucja from './covers/futbolowa-rewolucja.jpg';
+import GoingToTheMatch from './covers/gttm.jpg';
+import Pressing from './covers/pressing.jpg';
+import KobietyIFullboll from './covers/kobietyFutboll.jpg';
+import DrogamiWokolBogoty from './covers/Drogami_wokół_Bogoty_T_Feiling.jpg';
 
 const books = [
     {
@@ -31,7 +32,7 @@ const books = [
             author_1: 'Sylwia Chutnik',
             text_1: 'Piłkarz-gej, feministka-prostytutka i do tego lesbijka. A wokół nich pełno dziwnych i podejrzanych ludzi. No ładnie! Fabuła jest zaskakująca i trzyma w napięciu, chociaż w tekście sporo też odniesień do aktualnych wydarzeń społecznych i politycznych. Sam pomysł, aby niewygodny dla wielu osób związanych futbolem temat nieheteronormatywności przenieść na stadiony przywodzi na myśl spektakl Moniki Strzępki i Pawła Demirskiego „Tęczowa trybuna”, w którym na Euro 2012 geje i lesbijski szykowali swój własny sektor. Jednak political fiction autorstwa Lipskiego dotyka szerszych spraw – nie tylko homofobii w środowisku piłkarskim i kibicowskim, ale i rasizmu czy strachu przed uchodźcami. W na pozór tolerancyjnej Warszawie, gdzie „każdy znajdzie dla siebie miejsce” znajdują się strefy zakazane, gdzie dziennikarze walczą o każdy news, choćby miało się to skończyć niebezpieczeństwem czy nawet śmiercią. Do tego galeria oryginalnych postaci i mamy chyba pierwszą w Polsce powieść homo-piłkarską.',
             author_2: 'Roman Kurkiewicz',
-            text_2: 'Piłkarz-gej, feministka-prostytutka i do tego lesbijka. A wokół nich pełno dziwnych i podejrzanych ludzi. No ładnie! Fabuła jest zaskakująca i trzyma w napięciu, chociaż w tekście sporo też odniesień do aktualnych wydarzeń społecznych i politycznych. Sam pomysł, aby niewygodny dla wielu osób związanych futbolem temat nieheteronormatywności przenieść na stadiony przywodzi na myśl spektakl Moniki Strzępki i Pawła Demirskiego „Tęczowa trybuna”, w którym na Euro 2012 geje i lesbijski szykowali swój własny sektor. Jednak political fiction autorstwa Lipskiego dotyka szerszych spraw – nie tylko homofobii w środowisku piłkarskim i kibicowskim, ale i rasizmu czy strachu przed uchodźcami. W na pozór tolerancyjnej Warszawie, gdzie „każdy znajdzie dla siebie miejsce” znajdują się strefy zakazane, gdzie dziennikarze walczą o każdy news, choćby miało się to skończyć niebezpieczeństwem czy nawet śmiercią. Do tego galeria oryginalnych postaci i mamy chyba pierwszą w Polsce powieść homo-piłkarską.',
+            text_2: 'Piłkarz-gej, feministka-prostytutka i do tego lesbijka. A wokół nich pełno dziwnych i podejrzanych ludzi. No ładnie! Fabuła jest zaskakująca i trzyma w napięciu, chociaż w tekście sporo też odniesień do aktualnych wydarzeń społecznych i politycznych. Sam pomysł, aby niewygodny dla wielu osób związanych futbolem temat nieheteronormatywności przenieść na stadiony przywodzi na myśl spektakl Moniki Strzępki i Pawła Demirskiego „Tęczowa trybuna”, w którym na Euro 2012 geje i lesbijski szykowali swój własny sektor. Jednak political fiction autorstwa Lipskiego dotyka szerszych spraw – nie tylko homofobii w środowisku piłkarskim i kibicowskim, ale i rasizmu czy strachu przed uchodźcami. W na pozór tolerancyjnej Warszawie, gdzie „każdy znajdzie dla siebie miejsce” znajdują się strefy zakazane, gdzie dziennikarze walczą o każdy news, choćby miało się to skończyć niebezpieczeństwem czy nawet śmiercią. Do tego galeria oryginalnych postaci i mamy chyba pierwszą w Polsce powieść homo-piłkarską.'
         }
     },
     {
@@ -206,6 +207,40 @@ const books = [
         reviews: {
             author_1: 'prof. Tadeusz Cegielski',
             text_1: '”Silver Stag” A.M. Rosner przynosi nam wszystko, czego wymagają reguły przygodowo-pirackiego gatunku. Otrzymujemy świetnie opowiedziane dzieje kolonialnej rywalizacji na morzu i lądzie. Na tle autentycznych wydarzeń pojawiają się barwne i charakterystyczne dla epoki postaci. Poznajemy historię męskiej przyjaźni i lojalności oraz tajemnicę, która się z nią wiąże; szalone projekty i niespełnione plany matrymonialne; uczestniczymy w bitwach i morskich abordażach, efektownych pojedynkach, napadach i ucieczkach. Spotykamy ludzi złych i okrutnych, równocześnie mądrych i szlachetnych, choć niekoniecznie urodzonych pod szczęśliwą gwiazdą. Przede wszystkim zaś odkrywamy sekrety angielskich dżentelmenów, których mądrość, ogłada i humanitaryzm wystawione zostaną na ogniową próbę dramatycznych wydarzeń.'
+        }
+    },
+    {
+        id: 'drogami wokół bogoty',
+        title: 'Drogami wokół Bogoty. Podróże po Nowej Kolumbii',
+        imgSrc: DrogamiWokolBogoty,
+        author: 'Tom Feiling',
+        ISBN: {
+            isnb: '978-83-950536-5-8',
+            format: '140 x 205 mm',
+            bookbinding: 'miękka',
+            numberOfPages: '304',
+            bookEdition: 'I',
+            coverPrize: '34,90 zł'
+        },
+        shops: {
+            shop1: 'https://www.empik.com/drogami-wokol-bogoty-podroze-po-nowej-kolumbii-feiling-tom,p1205878205,ksiazka-p',
+            shop2: 'https://bonito.pl/k-1898143-drogami-wokol-bogoty-podroze-po-nowej-kolumbii',
+            shop3: 'https://merlin.pl/drogami-wokol-bogoty-podroze-po-nowej-kolumbii-tom-feiling/8053408/'
+        },
+        shortDescription: 'Przez lata Kolumbia była „narkopaństwem”. Dziś uważa się ją za jedną ze wschodzących gwiazd na gospodarczej mapie świata. Gdzie leży prawda? Pisarz i dziennikarz, Tom Feiling, przemierzył ją wzdłuż i wszerz.',
+        reviews: {
+
+            author_1: 'Robert Carver, „Spectator”',
+            text_1: 'Najlepsi brytyjscy autorzy literatury podróżniczej, tacy jak Norman Lewis czy Bruce Chatwin, potrafią podzielić się z czytelnikiem więcej niż samą przygodą podróżniczą. Feiling jest jednym z nich (...) błyskotliwa, wnikliwa i niezmiernie przyjemna lektura.',
+
+            author_2: 'David Gallagher, „The Times”',
+            text_2: 'Najbardziej poruszającymi historiami w książce dzielą się z Feilingiem ci, których spotyka on w drodze. Ich portrety zapadają głęboko w pamięć. (…) jest to przemyślana i dobrze napisana opowieść',
+
+            author_3: 'Rachel Asden, „Observer”',
+            text_3: 'Doskonała, ważna pozycja (...) wyjaśnia skomplikowaną historię Kolumbii tym, którym kojarzy się ona jedynie z kokainą i przemocą',
+
+            author_4: 'Carl Wilkinson, „Financial Times”',
+            text_4: 'Docierająca do sedna problemu i napisana stylem eleganckim. Feiling pisze piórem zaprawionego dziennikarza i pisarza-podróżnika.'
         }
     }
 ];

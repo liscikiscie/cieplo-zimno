@@ -2,8 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Books from './views/Books.vue'
 import About from './views/About.vue'
+import BookDetails from './componets/Books/BookDetails.vue';
 import Contact from './views/Contact.vue'
 import Announcements from './views/Announcements.vue'
+import AnnouncementDetails from './componets/Announcements/AnnouncementDetails.vue'
 
 Vue.use(Router);
 
@@ -33,6 +35,18 @@ export default new Router({
             path: '/kontakt',
             name: 'Contact',
             component: Contact
+        },
+        {
+            path:'/ksiazki/:bookDetails',
+            name: 'bookDetails',
+            component: BookDetails,
+            props: true
+        },
+        {
+            path:'/zapowiedzi/:announcementDetails',
+            name: 'announcementDetails',
+            component: AnnouncementDetails,
+            props: true
         },
     ]
 })
