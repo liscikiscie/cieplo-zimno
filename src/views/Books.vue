@@ -17,7 +17,7 @@
 </template>
 
 <script>
-    import BookRout from '../componets/BookRout.vue'
+    import BookRout from '../componets/Books/BookRout.vue'
     import Library from '../assets/books/BooksContentService'
 
     export default {
@@ -29,6 +29,9 @@
             return {
                 books: Library
             }
+        },
+        created(){
+            console.log(this.books);
         }
     }
 </script>

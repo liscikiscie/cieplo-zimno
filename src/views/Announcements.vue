@@ -15,8 +15,8 @@
 </template>
 
 <script>
-    import AnnouncementRout from '../componets/AnnouncementRout.vue'
-    import AnnouncementsContentSerice from '../assets/books/AnnouncementsContentSerice'
+    import AnnouncementRout from '../componets/Announcements/AnnouncementRout.vue'
+    import AnnouncementsBooks from '../assets/books/AnnouncementsContentService'
 
     let Announcements = {
         name: 'Announcements',
@@ -25,8 +25,11 @@
         },
         data(){
             return {
-                annon: AnnouncementsContentSerice
+                annon: AnnouncementsBooks
             }
+        },
+        created(){
+            console.log(this.annon);
         }
     };
     export default Announcements;

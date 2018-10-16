@@ -12,13 +12,9 @@
                     <div class="isbn-detail">Ilość stron: {{$route.params.isbn.numberOfPages}}</div>
                 </div>
                 <hr style="width: 70%"/>
-                <div class="shops">
-                    <a class="shop" :href="$route.params.shops.shop1" target="_blank">Empik</a>
-                    <a class="shop" :href="$route.params.shops.shop2" target="_blank">Lobotiga</a>
-                    <a class="shop" :href="$route.params.shops.shop3" target="_blank">Merlin</a>
-                </div>
             </div>
             <div class="header-main-info">
+                <h2>PREMIERA 14 listopada 2018 r</h2>
                 <div class="header-info title">
                     {{title}}
                 </div>
@@ -53,6 +49,9 @@
 </script>
 
 <style lang="scss" scoped>
+    h2 {
+        color: darkorange;
+    }
 
     .book-details__container {
 

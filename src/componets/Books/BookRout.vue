@@ -2,9 +2,9 @@
     <div class="books__routing-container">
         <router-link
                 :to="{
-                name:'announcementDetails',
+                name:'bookDetails',
                 params:{
-                announcementDetails: title,
+                bookDetails: title,
                 id: id,
                 title: title,
                 author: author,
@@ -21,16 +21,19 @@
 </template>
 
 <script>
-    let AnnouncementRout = {
-        name: 'announcementRout',
+    let BookRout = {
+        name: 'books-routing',
         props: [ 'id', 'title', 'author', 'imgSrc', 'shortDesc', 'isbn', 'shops', 'reviews' ],
         data() {
             return {
                 image: this.imgSrc
             }
+        },
+        created(){
+            console.log(this.image);
         }
     };
-     export default AnnouncementRout;
+    export default BookRout;
 </script>
 
 <style lang="scss" scoped>

@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Books from './views/Books.vue'
 import About from './views/About.vue'
-import BookDetails from './componets/BookDetails.vue';
+import BookDetails from './componets/Books/BookDetails.vue';
 import Contact from './views/Contact.vue'
 import Announcements from './views/Announcements.vue'
-import AnnouncementDetails from './componets/AnnouncementDetails.vue'
+import AnnouncementDetails from './componets/Announcements/AnnouncementDetails.vue'
 
 Vue.use(Router);
 
